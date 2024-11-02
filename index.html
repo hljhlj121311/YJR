@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级百科 - 杨J（教师）</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #202122;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #a2a9b1;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        .header-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+        }
+        .search-bar {
+            display: flex;
+        }
+        .search-bar input {
+            padding: 6px;
+            border: 1px solid #a2a9b1;
+            border-right: none;
+            border-radius: 2px 0 0 2px;
+            width: 200px;
+        }
+        .search-bar button {
+            padding: 6px 12px;
+            background-color: #36c;
+            color: white;
+            border: none;
+            border-radius: 0 2px 2px 0;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 3px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: none; /* 移除h3下方的线段 */
+        }
+        h4 {
+            font-size: 16px;
+            border-bottom: none;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .toc h2 {
+            margin-top: 0;
+            font-size: 16px;
+            border-bottom: none;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 15px;
+            margin: 5px 0;
+        }
+        .toc ul ul {
+            padding-left: 20px;
+        }
+        .toc a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        th, td {
+            border: 1px solid #a2a9b1;
+            padding: 6px;
+        }
+        th {
+            background-color: #eaecf0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .infobox {
+            float: right;
+            margin: 0 0 15px 15px;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .infobox h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .infobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .uninfobox {
+            float: left;
+            margin: 15px 15px 0 0;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .uninfobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            border-top: 1px solid #a2a9b1;
+            padding: 15px 0;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #72777d;
+        }
+        @media (max-width: 768px) {
+            .infobox {
+                float: none;
+                width: 100%;
+                margin: 15px 0;
+            }
+            .header-content {
+                flex-direction: column;
+            }
+            .search-bar {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面内容保持不变 -->
+    <div class="header">
+        <div class="header-content">
+            <a href="#" class="logo">12班班级百科</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>杨J（教师）</h1>
+        
+         <table>
+                <tr>
+                    <th>别称</th>
+                    <td>Xidada</td>
+                </tr>
+                <tr>
+                    <th>职业</th>
+                    <td>教师</td>
+                </tr>
+                <tr>
+                    <th>政治面貌</th>
+                    <td>中国共产党党员</td>
+                </tr>
+                <tr>
+                    <th>担任职位</th>
+                    <td>初2025届<a href="https://shierban-github-io.pages.dev/">十二班</a>及其他几个班政治老师（2022年-）和某班班主任</td>
+                </tr>
+            </table>
+        
+
+        <p>杨J（教师）是LNBS的教职工，自2022年起担任<a href="https://shierban-github-io.pages.dev/">十二班</a>及其他班的政治老师，并兼任某班班主任。她展现出浓厚的爱党精神，这不仅源于其政治教师和党员的身份，还源于她的个人信念。杨J对学生的上课状态要求严格，十分重视课堂笔记的记录情况。</p>
+
+        <div class="toc">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#section1">1. 生平</a>
+                    <ul>
+                        <li><a href="#section1-1">1.1 任教十二班</a></li>
+                          </ul>
+                </li>
+                <li><a href="#section2">2. 争议</a>
+                    
+                                
+                </li>
+                
+                
+            </ul>
+        </div>
+
+        <h2 id="section1">1. 生平</h2>
+        
+        <h3 id="section1-1">1.1 任教十二班</h3>
+        <p>杨J有时为赶课堂进度，快速勾画笔记，这可能影响部分学生的深入思考。她多次强调笔记的重要性，若发现学生未记笔记，会进行批评。杨J还要求学生在评讲题目时多翻阅教材，并在课前朗读教材内容。杨J在课堂上多次引用国家主席习近平的言论，并称习近平为“习大大”，这可能是由于教材和课件内容的要求，也可能源于她的个人崇拜。杨J和<a href="https://penny-github-io-7sf.pages.dev/">彭</a>（教师）的关系较好，偶尔会一起去吃饭。</p>
+      
+        <p>杨J偶尔会在课堂上分享她的政治生活（如向官方网站反馈问题），但通常无后续。她也会表达个人观点，例如批评习连任后又立即称此为‘政治错误’。她认为美国是俄乌冲突的幕后推手，甚至还表示若国家要她的孩子，她愿意和孩子一起去。</p>
+        
+        <h2 id="section2">2. 争议</h2>
+        <p>有观点认为，杨J可能受到国内舆论环境的影响，偶尔发表偏激言论，如“美国巴不得世界爆发核战争”。她对民主概念不甚熟悉，认为全过程人民民主是最先进的民主形式。</p>
+
+        
+        
+
+        
+            </div>
+
+    <div class="footer">
+        <p>本页面最后编辑于2024年几月几日 (星期几) 不知道（UTC）。</p>
+        <p>本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
